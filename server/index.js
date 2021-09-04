@@ -11,10 +11,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
 
-const conncetMongo = async ()=>{
+const connectMongo = async ()=>{
     await mongoose.connect(process.env.MONGO_CLUSTER);
 }
-conncetMongo();
+connectMongo();
 const db = mongoose.connection;
 db.on("error", ()=>console.log("error DB Connection!"));
 db.once("open", ()=>{

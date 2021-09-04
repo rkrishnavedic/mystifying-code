@@ -1,0 +1,52 @@
+.navbar{
+    display: flex;
+    position: fixed;
+    justify-content: space-around;
+    width: 100vw;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: white;
+  }
+  
+  .left_nav{
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    padding: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: default;
+  }
+  
+  .right_nav{
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .right_nav div{
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(128, 128, 128, 0);
+  }
+  
+  .right_nav div:hover{
+    transition: .2s ease-in-out;
+    border-bottom: 1px solid gray;
+    background: linear-gradient(to top, rgb(234, 243, 255), white);
+  }
+
+  .right_nav a{
+      text-decoration: none;
+      color: black;
+  }
+
+  .right_nav a:hover{
+      text-decoration: none;
+  }
+  
+  .profile{
+    padding-top: 70px;
+  }
