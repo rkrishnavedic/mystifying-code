@@ -21,7 +21,8 @@ The project aims to provide a basic service of Online Judging System
 
 Todo list
 - [x] Basic Judging environment and code editor using monaco in ReactJS
-- [ ] Adding Navigation Page to User for various submissions
-- [ ] mongoDB for submission event details and verdict status
+- [x] rabbitMQ setup ready and connected to express server
+- [x] mongoDB setup ready and connected to express server
+- [ ] Add the judge0 environment to express server
 - [ ] cloud bucket (not decided yet) for storing code text
-- [ ] Apache Kafka as message queue (submission queue)
+- [ ] ...
