@@ -2,6 +2,14 @@
 
 The project aims to provide a basic service of Online Judging System
 
+#### Highlights
+1. POST /api/submit
+2. GET /api/submissions
+3. Core server[right-top terminal here] and microservice(judging environment)[right-bottom terminal here] are all set!
+4. ![](https://user-images.githubusercontent.com/57654450/132175448-bc753ec9-0446-4178-b2ce-2dfe5f369e88.mov)
+
+
+
 #### Plan (as of now) [System Perspective]
 1. Code is uploaded and stored in cloud storage and its metadeta is stored in database alongside
 2. Submission Event is added to submission queue.
