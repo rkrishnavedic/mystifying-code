@@ -6,7 +6,7 @@ The project aims to provide a basic service of Online Judging System
 1. POST /api/submit
 2. GET /api/submissions
 3. Core server[right-top terminal here] and microservice(judging environment)[right-bottom terminal here] are all set!
-4. ![](https://user-images.githubusercontent.com/57654450/132175448-bc753ec9-0446-4178-b2ce-2dfe5f369e88.mov)
+4. ![](https://user-images.githubusercontent.com/57654450/132288471-d51c4298-2308-4985-aae2-ed5c6ba13f9b.mp4)
 
 
 
